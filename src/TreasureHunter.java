@@ -55,6 +55,17 @@ public class TreasureHunter {
         if (hard.equals("y")) {
             hardMode = true;
         }
+        if (hard.equals("test")) {
+            testMode = true;
+        }
+        if (testMode) {
+            hunter.changeGold(90);
+            hunter.addItem("water");
+            hunter.addItem("rope");
+            hunter.addItem("machete");
+            hunter.addItem("horse");
+            hunter.addItem("boat");
+        }
     }
 
     /**
