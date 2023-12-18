@@ -108,7 +108,11 @@ public class Town {
             } else {
                 printMessage += Colors.RED + "That'll teach you to go lookin' fer trouble in MY town! Now pay up!";
                 printMessage += "\nYou lost the brawl and pay " + Colors.YELLOW + goldDiff + " gold." + Colors.RESET;
-                hunter.changeGold(-goldDiff);
+                if (hunter.changeGold(-goldDiff)) {
+                    System.out.println(printMessage);
+                    System.out.println("Gamer over! The hunter went into debt and can't paid back to the stranger so he got killed!");
+                    System.exit(0);
+                }
             }
         }
     }

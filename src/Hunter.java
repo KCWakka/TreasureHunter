@@ -32,10 +32,12 @@ public class Hunter {
      *
      * @param modifier Amount to modify gold by.
      */
-    public void changeGold(int modifier) {
+    public boolean changeGold(int modifier) {
         gold += modifier;
         if (gold < 0) {
-            gold = 0;
+            return true;
+        } else {
+            return false;
         }
     }
 
