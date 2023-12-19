@@ -219,6 +219,15 @@ public class Hunter {
 
         return true;
     }
+    private boolean treasureIsEmpty() {
+        for (String string : treasureList) {
+            if (string != null) {
+                return false;
+            }
+        }
+
+        return true;
+    }
 
     /**
      * Finds the first index where there is a null value.
