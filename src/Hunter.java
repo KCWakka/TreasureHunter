@@ -185,7 +185,7 @@ public class Hunter {
         if (!treasureIsEmpty()) {
              str += getTreasure() + Colors.RESET;
         } else {
-            str += Colors.YELLOW + "none";
+            str += Colors.YELLOW + "none" + Colors.RESET;
         }
         return str;
     }
