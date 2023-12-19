@@ -41,7 +41,7 @@ public class Town {
         } else if (random == 1) {
             treasure = "Trophy";
         } else if (random == 2) {
-            treasure = "gem";
+            treasure = "Gem";
         } else {
             treasure = "dust";
         }
@@ -139,7 +139,11 @@ public class Town {
             if (!treasure.equals("dust")) {
                 hunter.addTreasure(treasure);
                 printMessage += Colors.YELLOW + "\nYou put the treasure in your bag!" + Colors.RESET;
-                if ()
+                if ( (hunter.getTreasure().indexOf("Crown") != -1) && (hunter.getTreasure().indexOf("Trophy") != -1) && (hunter.getTreasure().indexOf("Gem") != -1)) {
+                    System.out.println(printMessage);
+                    System.out.println("Congratulations, you have found the last of the three treasures, you win!");
+                    System.exit(0);
+                }
             } else {
                 printMessage += Colors.YELLOW + "\nYou waste your time on a non-valuable treasure, you throw away the dust!" + Colors.RESET;
             }
