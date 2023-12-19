@@ -139,6 +139,7 @@ public class Town {
             if (!treasure.equals("dust")) {
                 hunter.addTreasure(treasure);
                 printMessage += Colors.YELLOW + "\nYou put the treasure in your bag!" + Colors.RESET;
+                if ()
             } else {
                 printMessage += Colors.YELLOW + "\nYou waste your time on a non-valuable treasure, you throw away the dust!" + Colors.RESET;
             }

@@ -160,6 +160,18 @@ public class Hunter {
 
         return printableKit;
     }
+    public String getTreasure() {
+        String printableKit = "";
+        String space = " ";
+
+        for (String item : treasureList) {
+            if (item != null) {
+                printableKit += item + space;
+            }
+        }
+
+        return printableKit;
+    }
 
     /**
      * @return A string representation of the hunter.
