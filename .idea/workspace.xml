@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747d3890-cf30-4638-b561-cee05744fd51" name="Changes" comment="TH-6 Done">
-      <change beforePath="$PROJECT_DIR$/src/TreasureHunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreasureHunter.java" afterDir="false" />
+    <list default="true" id="747d3890-cf30-4638-b561-cee05744fd51" name="Changes" comment="TH-4 Done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Town.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Town.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,14 +86,7 @@
       <option name="project" value="LOCAL" />
       <updated>1703008699056</updated>
     </task>
-    <task id="LOCAL-00006" summary="TH-6 Done">
-      <created>1703009855644</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1703009855644</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -101,7 +95,6 @@
     <MESSAGE value="TH-1 Done" />
     <MESSAGE value="TH-2 Done" />
     <MESSAGE value="TH-4 Done" />
-    <MESSAGE value="TH-6 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="TH-6 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="TH-4 Done" />
   </component>
 </project>
