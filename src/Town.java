@@ -126,7 +126,7 @@ public class Town {
                 printMessage += "\nYou lost the brawl and pay " + Colors.YELLOW + goldDiff + " gold." + Colors.RESET;
                 if (hunter.changeGold(-goldDiff)) {
                     System.out.println(printMessage);
-                    System.out.println("Gamer over! The hunter went into debt and can't paid back to the stranger so he got killed!");
+                    System.out.println(Colors.CYAN +  "Gamer over! The hunter went into debt and can't paid back to the stranger so he got killed!" + Colors.RESET);
                     System.exit(0);
                 }
             }
@@ -139,9 +139,12 @@ public class Town {
             if (!treasure.equals("dust")) {
                 hunter.addTreasure(treasure);
                 printMessage += Colors.YELLOW + "\nYou put the treasure in your bag!" + Colors.RESET;
+                if (hunter.hasTreasure(treasure)) {
+                    printMessage += Colors.YELLOW + "You realized that you already have it so you throw it away!" + Colors.RESET;
+                }
                 if ( (hunter.getTreasure().indexOf("Crown") != -1) && (hunter.getTreasure().indexOf("Trophy") != -1) && (hunter.getTreasure().indexOf("Gem") != -1)) {
                     System.out.println(printMessage);
-                    System.out.println("Congratulations, you have found the last of the three treasures, you win!");
+                    System.out.println(Colors.CYAN + "Congratulations, you have found the last of the three treasures, you win!" + Colors.RESET);
                     System.exit(0);
                 }
             } else {
