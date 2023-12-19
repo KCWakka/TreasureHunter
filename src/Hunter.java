@@ -181,8 +181,11 @@ public class Hunter {
         if (!kitIsEmpty()) {
             str += " and " + Colors.PURPLE + getInventory() + Colors.RESET;
         }
+        str += Colors.YELLOW + "\nTreasure: ";
         if (!treasureIsEmpty()) {
-            str += " and " + Colors.PURPLE + getTreasure() + Colors.RESET;
+             str += getTreasure() + Colors.RESET;
+        } else {
+            str += Colors.YELLOW + "none";
         }
         return str;
     }
