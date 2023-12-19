@@ -16,6 +16,8 @@ public class Shop {
 
     private static final int BOOTS_COST = 8;
 
+    private static final int SHOVEL_Cost = 8;
+
     // static variables
     private static final Scanner SCANNER = new Scanner(System.in);
 
@@ -88,6 +90,7 @@ public class Shop {
         str += "Rope: " + Colors.GREEN + ROPE_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
         str += "Machete: " + Colors.GREEN + MACHETE_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
         str += "Boots: " + Colors.GREEN + BOOTS_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
+        str += "Shovel: " + Colors.GREEN + SHOVEL_Cost + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
         str += "Horse: " + Colors.GREEN + HORSE_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
         str += "Boat: " + Colors.GREEN + BOAT_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
 
@@ -156,6 +159,8 @@ public class Shop {
             return BOAT_COST;
         } else if (item.equals("boots")) {
             return BOOTS_COST;
+        } else if (item.equals("shovel")) {
+            return SHOVEL_Cost;
         } else {
             return 0;
         }
