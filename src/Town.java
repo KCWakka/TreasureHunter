@@ -12,6 +12,8 @@ public class Town {
     private String printMessage;
     private boolean toughTown;
     private boolean shovelOrNot;
+    private String treasure;
+    private boolean treasureOrNot;
 
     /**
      * The Town Constructor takes in a shop and the surrounding terrain, but leaves the hunter as null until one arrives.
@@ -32,6 +34,17 @@ public class Town {
         // higher toughness = more likely to be a tough town
         toughTown = (Math.random() < toughness);
         shovelOrNot = false;
+        treasureOrNot = false;
+        int random = (int) (Math.random() * 4);
+        if (random == 0) {
+            treasure = "Crown";
+        } else if (random == 1) {
+            treasure = "Trophy";
+        } else if (random == 2) {
+            treasure = "gem";
+        } else {
+            treasure = "dust";
+        }
     }
 
     public String getLatestNews() {
@@ -117,6 +130,20 @@ public class Town {
                     System.exit(0);
                 }
             }
+        }
+    }
+    public void treasureHunt() {
+        if (!treasureOrNot) {
+            printMessage = Colors.YELLOW + "You found a " + treasure + "." + Colors.RESET;
+            treasureOrNot = true;
+            if (!treasure.equals("dust")) {
+                hunter.addTreasure(treasure);
+                printMessage += Colors.YELLOW + "\nYou put the treasure in your bag!" + Colors.RESET;
+            } else {
+                printMessage += Colors.YELLOW + "\nYou waste your time on a non-valuable treasure, you throw away the dust!" + Colors.RESET;
+            }
+        } else {
+            printMessage = Colors.YELLOW + "You already have search this town for treasure!" + Colors.RESET;
         }
     }
     public void shovel() {
