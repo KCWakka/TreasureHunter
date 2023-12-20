@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747d3890-cf30-4638-b561-cee05744fd51" name="Changes" comment="Th-10 in progress" />
+    <list default="true" id="747d3890-cf30-4638-b561-cee05744fd51" name="Changes" comment="Th-5B Done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreasureHunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreasureHunter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,10 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="69846ca1-26c2-45c0-90ad-eca9a00ae39e" />
+    <option name="defaultAccountId" value="ae5829ce-d7ba-414a-b0e4-59fe03c5a614" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -86,14 +90,7 @@
       <option name="project" value="LOCAL" />
       <updated>1703012205420</updated>
     </task>
-    <task id="LOCAL-00006" summary="Th-10 in progress">
-      <created>1703095060973</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1703095060973</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -102,7 +99,6 @@
     <MESSAGE value="TH-1 Done" />
     <MESSAGE value="TH-2 Done" />
     <MESSAGE value="Th-5B Done" />
-    <MESSAGE value="Th-10 in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Th-10 in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Th-5B Done" />
   </component>
 </project>
