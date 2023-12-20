@@ -24,6 +24,7 @@ public class Shop {
     // instance variables
     private double markdown;
     private Hunter customer;
+    private TreasureHunter samurai;
 
     /**
      * The Shop constructor takes in a markdown value and leaves customer null until one enters the shop.
@@ -33,6 +34,7 @@ public class Shop {
     public Shop(double markdown) {
         this.markdown = markdown;
         customer = null; // is set in the enter method
+        samurai = new TreasureHunter();
     }
 
     /**
@@ -51,14 +53,23 @@ public class Shop {
             System.out.print("What're you lookin' to buy? ");
             String item = SCANNER.nextLine().toLowerCase();
             int cost = checkMarketPrice(item, true);
-            if (cost == 0) {
-                System.out.println("We ain't got none of those.");
-            } else {
+            if (samurai.getSamuraiMode() && item.toLowerCase().equals("sword")) {
                 System.out.print("It'll cost you " + Colors.YELLOW + cost + " gold. " + Colors.RESET + "Buy it (y/n)? ");
                 String option = SCANNER.nextLine().toLowerCase();
 
                 if (option.equals("y")) {
                     buyItem(item);
+                }
+            } else {
+                if (cost == 0) {
+                    System.out.println("We ain't got none of those.");
+                } else {
+                    System.out.print("It'll cost you " + Colors.YELLOW + cost + " gold. " + Colors.RESET + "Buy it (y/n)? ");
+                    String option = SCANNER.nextLine().toLowerCase();
+
+                    if (option.equals("y")) {
+                        buyItem(item);
+                    }
                 }
             }
         } else {
@@ -87,6 +98,9 @@ public class Shop {
      */
     public String inventory() {
         String str = "Water: " + Colors.GREEN + WATER_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
+        if (samurai.getSamuraiMode()) {
+            str += Colors.RED + "Sword: 0 gold\n" + Colors.RESET;
+        }
         str += "Rope: " + Colors.GREEN + ROPE_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
         str += "Machete: " + Colors.GREEN + MACHETE_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
         str += "Boots: " + Colors.GREEN + BOOTS_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
