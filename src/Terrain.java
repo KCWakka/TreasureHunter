@@ -36,6 +36,9 @@ public class Terrain {
      * @return true if the Hunter has the proper item.
      */
     public boolean canCrossTerrain(Hunter hunter) {
+        if (getTerrainName().equals("Jungle") && hunter.hasItemInKit("sword")) {
+            return true;
+        }
         if (hunter.hasItemInKit(neededItem)) {
             return true;
         }

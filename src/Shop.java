@@ -119,10 +119,15 @@ public class Shop {
      */
     public void buyItem(String item) {
         int costOfItem = checkMarketPrice(item, true);
-        if (customer.buyItem(item, costOfItem)) {
-            System.out.println("Ye' got yerself a " + item + ". Come again soon.");
+        if (samuraiMode && customer.hasItemInKit("sword")) {
+            customer.buyItem(item, costOfItem);
+            System.out.println(Colors.RED + "Okay okay, don't use that sword on me, I give it to you for free!" + Colors.RESET);
         } else {
-            System.out.println("Hmm, either you don't have enough" + Colors.YELLOW + " gold " + Colors.RESET + "or you've already got one of those!");
+            if (customer.buyItem(item, costOfItem)) {
+                System.out.println("Ye' got yerself a " + item + ". Come again soon.");
+            } else {
+                System.out.println("Hmm, either you don't have enough" + Colors.YELLOW + " gold " + Colors.RESET + "or you've already got one of those!");
+            }
         }
     }
 
