@@ -17,6 +17,7 @@ public class Shop {
     private static final int BOOTS_COST = 8;
 
     private static final int SHOVEL_Cost = 8;
+    private static final int SWORD_COST = 0;
 
     // static variables
     private static final Scanner SCANNER = new Scanner(System.in);
@@ -24,17 +25,17 @@ public class Shop {
     // instance variables
     private double markdown;
     private Hunter customer;
-    private TreasureHunter samurai;
+    private boolean samuraiMode;
 
     /**
      * The Shop constructor takes in a markdown value and leaves customer null until one enters the shop.
      *
      * @param markdown Percentage of markdown for selling items in decimal format.
      */
-    public Shop(double markdown) {
+    public Shop(double markdown, boolean Samurai) {
         this.markdown = markdown;
         customer = null; // is set in the enter method
-        samurai = new TreasureHunter();
+        samuraiMode = Samurai;
     }
 
     /**
@@ -53,7 +54,7 @@ public class Shop {
             System.out.print("What're you lookin' to buy? ");
             String item = SCANNER.nextLine().toLowerCase();
             int cost = checkMarketPrice(item, true);
-            if (samurai.getSamuraiMode() && item.toLowerCase().equals("sword")) {
+            if (samuraiMode && item.equals("sword")) {
                 System.out.print("It'll cost you " + Colors.YELLOW + cost + " gold. " + Colors.RESET + "Buy it (y/n)? ");
                 String option = SCANNER.nextLine().toLowerCase();
 
@@ -98,8 +99,8 @@ public class Shop {
      */
     public String inventory() {
         String str = "Water: " + Colors.GREEN + WATER_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
-        if (samurai.getSamuraiMode()) {
-            str += Colors.RED + "Sword: 0 gold\n" + Colors.RESET;
+        if (samuraiMode) {
+            str += Colors.RED + "Sword: " + SWORD_COST + " gold\n" + Colors.RESET;
         }
         str += "Rope: " + Colors.GREEN + ROPE_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
         str += "Machete: " + Colors.GREEN + MACHETE_COST + Colors.RESET + Colors.YELLOW + " gold\n" + Colors.RESET;
