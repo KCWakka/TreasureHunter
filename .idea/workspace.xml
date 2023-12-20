@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747d3890-cf30-4638-b561-cee05744fd51" name="Changes" comment="Th-10 in progress(sword in shop)">
-      <change beforePath="$PROJECT_DIR$/src/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop.java" afterDir="false" />
+    <list default="true" id="747d3890-cf30-4638-b561-cee05744fd51" name="Changes" comment="Th-10 in progress shop part done">
+      <change beforePath="$PROJECT_DIR$/src/Terrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Terrain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703096149584</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Th-10 in progress shop part done">
+      <created>1703096438986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703096438986</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,6 +113,7 @@
     <MESSAGE value="TH-2 Done" />
     <MESSAGE value="Th-5B Done" />
     <MESSAGE value="Th-10 in progress(sword in shop)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Th-10 in progress(sword in shop)" />
+    <MESSAGE value="Th-10 in progress shop part done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Th-10 in progress shop part done" />
   </component>
 </project>

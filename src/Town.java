@@ -76,6 +76,9 @@ public class Town {
         boolean canLeaveTown = terrain.canCrossTerrain(hunter);
         if (canLeaveTown) {
             String item = terrain.getNeededItem();
+            if (hunter.hasItemInKit("sword") && getNewTerrain().equals("Jungle")) {
+                item = "sword";
+            }
             printMessage = "You used your " + item + " to cross the " + Colors.CYAN + terrain.getTerrainName() + Colors.RESET + ".";
             if (checkItemBreak()) {
                 hunter.removeItemFromKit(item);
