@@ -1,0 +1,47 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"747d3890-cf30-4638-b561-cee05744fd51\" name=\"Changes\" comment=\"Th-10 in progress shop part done\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/Terrain.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Terrain.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GithubDefaultAccount\">\r\n    <option name=\"defaultAccountId\" value=\"69846ca1-26c2-45c0-90ad-eca9a00ae39e\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2Zj6uqY5D3XQztlciYrxqYum0SN\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"747d3890-cf30-4638-b561-cee05744fd51\" name=\"Changes\" comment=\"\" />\r\n      <created>1702923366649</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1702923366649</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"inital commit\">\r\n      <created>1702923662226</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702923662226</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"testing\">\r\n      <created>1702923888247</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702923888248</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"TH-1 Done\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702939631374</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702939631374</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"TH-2 Done\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702940392567</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702940392567</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Th-5B Done\">\r\n      <created>1703012205420</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1703012205420</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Th-10 in progress(sword in shop)\">\r\n      <created>1703096149584</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1703096149584</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Th-10 in progress shop part done\">\r\n      <created>1703096438986</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1703096438986</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"inital commit\" />\r\n    <MESSAGE value=\"testing\" />\r\n    <MESSAGE value=\"TH-1 Done\" />\r\n    <MESSAGE value=\"TH-2 Done\" />\r\n    <MESSAGE value=\"Th-5B Done\" />\r\n    <MESSAGE value=\"Th-10 in progress(sword in shop)\" />\r\n    <MESSAGE value=\"Th-10 in progress shop part done\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Th-10 in progress shop part done\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7701388015e5ad994caf6d8a454e0e61756c75b8)
++++ b/.idea/workspace.xml	(date 1703097415633)
+@@ -4,9 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="747d3890-cf30-4638-b561-cee05744fd51" name="Changes" comment="Th-10 in progress shop part done">
+-      <change beforePath="$PROJECT_DIR$/src/Terrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Terrain.java" afterDir="false" />
+-    </list>
++    <list default="true" id="747d3890-cf30-4638-b561-cee05744fd51" name="Changes" comment="Th-10 in progress added sword can be use for jungle" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -103,7 +101,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1703096438986</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="Th-10 in progress added sword can be use for jungle">
++      <created>1703096772496</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1703096772496</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+@@ -114,6 +119,7 @@
+     <MESSAGE value="Th-5B Done" />
+     <MESSAGE value="Th-10 in progress(sword in shop)" />
+     <MESSAGE value="Th-10 in progress shop part done" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Th-10 in progress shop part done" />
++    <MESSAGE value="Th-10 in progress added sword can be use for jungle" />
++    <option name="LAST_COMMIT_MESSAGE" value="Th-10 in progress added sword can be use for jungle" />
+   </component>
+ </project>
+\ No newline at end of file

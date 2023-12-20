@@ -79,7 +79,7 @@ public class Town {
         boolean canLeaveTown = terrain.canCrossTerrain(hunter);
         if (canLeaveTown) {
             String item = terrain.getNeededItem();
-            if (hunter.hasItemInKit("sword") && getNewTerrain().equals("Jungle")) {
+            if (hunter.hasItemInKit("sword") && item.equals("machete")) {
                 item = "sword";
             }
             printMessage = "You used your " + item + " to cross the " + Colors.CYAN + terrain.getTerrainName() + Colors.RESET + ".";
@@ -123,8 +123,8 @@ public class Town {
         } else {
             int goldDiff = (int) (Math.random() * 10) + 1;
             if (hunter.hasItemInKit("sword")) {
-                printMessage = "The brawler, seeing your sword, has ran away from town";
-                printMessage += "\n You receive " + Colors.YELLOW + goldDiff + " gold" + Colors.RESET;
+                printMessage = Colors.RED + "The brawler, seeing your sword, has ran away from town" + Colors.RESET;
+                printMessage += Colors.RED + "\n You receive " + goldDiff + " gold" + Colors.RESET;
                 hunter.changeGold(goldDiff);
             } else {
                 printMessage = Colors.RED + "You want trouble, stranger!  You got it!\nOof! Umph! Ow!\n" + Colors.RESET;
